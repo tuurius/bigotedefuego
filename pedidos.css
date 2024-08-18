@@ -1,0 +1,245 @@
+body 
+{
+    margin: 0px
+}
+
+#headerlogo
+{
+    background-color: #d04135;
+    border: solid 10px;
+    border-left: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-color: green;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+
+}
+
+#imagemlogo
+{
+    margin-left: 20px;
+}
+
+#divbotoeslogo
+{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    margin-left: 40px;
+}
+
+.botoes
+{
+    height: 40px;
+    width: 140px;
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+#totalpontos
+{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 20px;
+}
+
+#totalpontosdois
+{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#divdacaixota
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#colunacaixota
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#caixa
+{
+    background-color: rgb(226, 218, 218);
+    border: solid 3px black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#barrinha
+{
+    height: 80%;
+    width: 10px;
+    background-color: green;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#adicionarpedidos
+{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grana
+{
+    margin-left: 100px;
+    background-color: rgb(226, 218, 218);
+    border-radius: 15px;
+    font-size: 30px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+#formadepagamento
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    font-size: 50px;
+}
+
+#alinhamento
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#alinhamento2
+{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamento
+{
+    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    
+}
+
+.linha
+{
+    height: 5px;
+    width: 100px;
+    background-color: black;
+}
+
+.desc
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+#usarpontos
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#usarpontos2
+{
+    background-color: green;
+    height: 80px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#recebimento
+{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#responsavel
+{
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(226, 218, 218);
+}
+
+#finalizar
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#finalizar2
+{
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+body 
+{
+    margin: 0px
+}
+
+#headerlogo
+{
+    background-color: #d04135;
+    border: solid 10px;
+    border-left: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-color: green;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+
+}
+
+#imagemlogo
+{
+    margin-left: 20px;
+}
+
+#divbotoeslogo
+{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    margin-left: 40px;
+}
+
+.botoes
+{
+    height: 40px;
+    width: 140px;
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+#agrupamento
+{
+    display: flex;
+    align-items: center; 
+    margin-left: 150px;
+}
+
+#sobrenos
+{
+    border: solid 5px black;
+    border-right: none;
+    margin-top: 90px;
+    margin-left: 50px;
+    height: 400px;
+    width: 800px;
+}
+
+#textosobrenos
+{
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+}
+
+#bandeira
+{
+    margin-top: 90px;
+}
+

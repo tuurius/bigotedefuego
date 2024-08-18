@@ -1,0 +1,149 @@
+body 
+{
+    margin: 0px
+}
+
+#headerlogo
+{
+    background-color: #d04135;
+    border: solid 10px;
+    border-left: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-color: green;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+
+}
+
+#imagemlogo
+{
+    margin-left: 20px;
+}
+
+#divbotoeslogo
+{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    margin-left: 40px;
+}
+
+.botoes
+{
+    height: 40px;
+    width: 140px;
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+
+
+#alinhamento
+{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+}
+
+#divbarradepesquisa
+{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#barradepesquisa
+{
+    border-radius: 20px;
+    border: solid black 3px;
+    height: 60px;
+    width: 200px;
+}
+
+#divcarrinho
+{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#carrinho
+{
+    margin-right: 450px;
+}
+
+.comidas
+{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulocomidas
+{
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 50px;
+    color: green;
+    margin-left: 100px;
+}
+
+.imagenscomidas
+{
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FED26E;
+}
+
+.imagenscomidas2
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descomidas
+{
+    background-color: #FED26E;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+#realizarpedido
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#botaorealizarpedido
+{
+    height: 80px;
+    width: 250px;
+    border-radius: 14px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+}

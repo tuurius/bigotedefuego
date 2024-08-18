@@ -1,0 +1,157 @@
+body 
+{
+    margin: 0px
+}
+
+#headerlogo
+{
+    background-color: #d04135;
+    border: solid 10px;
+    border-left: none;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-color: green;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+
+}
+
+#imagemlogo
+{
+    margin-left: 20px;
+}
+
+#divbotoeslogo
+{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    margin-left: 40px;
+}
+
+.botoes
+{
+    height: 40px;
+    width: 140px;
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+#alinhamento
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#alinhamento2
+{
+    width: 50%;
+    border: solid #d04135 8px;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cadastre
+{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 80px; 
+   color: white;
+   -webkit-text-stroke: 2px black;
+   font-family: "Actor", sans-serif;
+}
+
+.preenchimento
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.inputpreenchimento
+{
+    border-radius: 10px;
+    margin-left: 15px;
+    background-color: rgb(221, 218, 218);
+    color: black;
+    height: 30px;
+}
+
+#selecao
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.tituloselecao
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.selecao2
+{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.caixotasselecao
+{
+    border-radius: 10px;
+    border: solid 2px black;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#botaofinal
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#botaofinal2
+{
+    height: 50px;
+    width: 180px;
+    font-size: 40px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
