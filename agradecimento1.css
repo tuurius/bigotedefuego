@@ -5,6 +5,9 @@ body
 
 button a {
     text-decoration: none; 
+}
+
+button a:visited {
     color: inherit; 
 }
 
